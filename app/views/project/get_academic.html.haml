@@ -1,0 +1,47 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}
+      %title Reveal
+      %meta{:content => "Checks whether deals have been flighted in the last 24 hours", :name => "description"}
+        %meta{:content => "Jay Wang", :name => "author"}
+          %link{:href => "../../assets/stylesheets/project.css", :rel => "stylesheet"}
+            :css
+              body {
+                padding-top: 10px;
+              }
+          %script{:src => "../../assets/javascripts/project.js"}
+    
+  %body
+    .container
+      .hero-unit
+        %h1 1. Academic Information
+        - for i in 0..2
+          %br
+        %form{:action => '/extra_curric', :method => 'post', :name => 'myForm'} 
+          %p Current Cumulative GPA:
+          %input{:name => "gpa", :type => "text", :style => "margin-bottom: 23px"}         
+          %br
+          %p Select Your Major(s):
+          - @major_params.each do |m|
+            %select{:name => m, :style => "margin-right: 25px;margin-bottom: 23px"}
+              %option -- Select --
+              - DegreeConstants.get_majors().each do |d|
+                %option #{d}
+          %p Select Your Minor(s) (if applicable):
+          - @minor_params.each do |m|
+            %select{:name => m, :style => "margin-right: 25px;margin-bottom: 23px"}
+              %option -- Select --
+              - DegreeConstants.get_minors().each do |d|
+                %option #{d}
+          %p Select Your Certificate (if applicable):
+          - @cert_params.each do |m|
+            %select{:name => m, :style => "margin-right: 25px;margin-bottom: 23px"}
+              %option -- Select --
+              - DegreeConstants.get_certs().each do |d|
+                %option #{d}                     
+          - for i in 0..5
+            %br
+          %submit_button          
+            %input{:type => "submit", :value => "Continue", :class => "btn btn-large btn-primary"}
+          

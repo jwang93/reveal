@@ -1,0 +1,54 @@
+@import "slate-bootstrap";
+
+#home_button{
+	width: 500px;
+	margin: 0 auto;
+}
+
+.center {
+	text-align: center;
+}
+
+.italics {
+	font-style: italic;
+}
+
+.margin {
+	margin-right: 20px;
+}
+
+.btn {
+	float: center;
+	margin: 0 auto;
+	padding: 10px;
+	font-size: 17px;
+}
+
+.btn-large {
+	margin: auto;
+}
+
+.btn-primary {
+	margin: auto;
+}
+
+.row {
+	margin: auto;
+}
+
+.input_fields {
+	width: 100%;
+}
+
+div.panel,p.flip {
+	margin:0px;
+	padding:5px;
+	text-align:center;
+	background: cyan;
+	border:solid 1px #c3c3c3;
+}
+
+div.panel {
+	height:50px;
+	display:none;
+}

@@ -1,0 +1,7 @@
+{
+"name" : "Public Policy - BA",
+"notes" : "Note that taking both Econ 101 (51) and Econ 201D (55) fulfills the requirement for PUBPOL 303 (128). Students who have taken both of these courses cannot take PUBPOL 303 (128). Taking Econ 101 (51) and Econ 201D (55) count as the prerequisite for PUBPOL 304 (132).", 
+"pre-req" : ["Pubpol 155D"], 
+"core" : ["Pubpol 120", "Pubpol 155D", "Pubpol 301", "Pubpol 302", "Pubpol 303", "Pubpol 304","History Elective", "Stats 101/102/103"],
+"electives" : ["Pubpol Elective (165-699) 1", "Pubpol Elective (165-699) 2", "Pubpol Elective (165-699) 3", "Pubpol Elective (500-699) 4"]
+}

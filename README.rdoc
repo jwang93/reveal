@@ -1,0 +1,3 @@
+App for course calculation at Duke 
+
+problems: need some validation for the course adding... 

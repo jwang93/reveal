@@ -1,0 +1,8 @@
+{
+"name" : "Economics - BA",
+"notes" : "*or any higher level Math course with Math 212 as a pre-req. **Courses 500-549 can only be counted toward the major with the approval of the Director of Undegraduate Studies.", 
+"pre-req" : ["Math 202/212/222*", "Math 111L/or Math 105L and Math 106L", "Math 112L/122/122L", "Stat 111 (recommended); Stat 230/Math 230, Stat 130 or Stat 250/Math 342"], 
+"core" : ["Econ 101", "Econ 201D", "Econ 205D", "Econ 210D", "Econ 208D"],
+"electives" : ["Econ History Elective: 222D/322SA/302/319/394/312/311/313/314/316S/318S", "Econ Elective 1 (300-399)", "Econ Elective 2 (400-499)", "Econ Elective 3 (>300)**", "Econ Elective 4 (>300)**"],
+"general ristrictions" : "A maximum of TWO transfer credit courses will be accepted toward the major (B.S. or B.A. degrees). This applies to courses taken in the USA and to study abroad courses. One exception is the London School of Economics (LSE) full-year (Fall and Spring) program, from which a maximum of FOUR courses may be counted toward the major."
+}

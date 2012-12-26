@@ -1,0 +1,29 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}
+      %title Reveal
+      %meta{:content => "Checks whether deals have been flighted in the last 24 hours", :name => "description"}
+        %meta{:content => "Jay Wang", :name => "author"}
+          %link{:href => "../../assets/stylesheets/project.css", :rel => "stylesheet"}
+            :css
+              body {
+                padding-top: 10px;
+              }
+  %body
+    .container
+      .row
+        .hero-unit
+          %h1.center Welcome,
+          %br
+          %h1.center We're Reveal. 
+          %br
+          %br
+          %h2.center Providing college students personalized career data
+          - for i in 0..7
+            %br
+          %row
+            %br
+            %br
+          .row
+            #home_button #{link_to "Get Started", '/get_academic', id: "home_button", class: "btn btn-large btn-primary"}

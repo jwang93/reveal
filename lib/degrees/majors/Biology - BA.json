@@ -1,0 +1,15 @@
+{
+"name" : "Biology - BA",
+"notes" : "", 
+"pre-req" : ["Chem 101DL/21/110DL", "Math 105 (or equiv)", "Math 106L (or equiv)"], 
+"core" : ["Bio 210L", "Bio 202L", "Organismal Diversity Course", "Structure/Function: Cells and Organisms", "Ecology"],
+"electives" : ["Biology Elective* 1", "Biology Elective* 2", "Biology Elective* 3", "Biology Elective* 4 or approved alternate", "Biology Elective* 5 or approved alternate"],
+"elective ristrictions" : "-At least 3 electives must be in courses listed or cross-listed as Biology. This may include BCH 301 (227) and a maximum of 2 approved Independent Study (BIO, BCH, GENOME, PHR, PTH, NBI, CBI, IMM, MGM).
+-Bio electives must be at the 200-level or above
+-A maximum of 2 independent studies or tutorials may count toward the major.
+-A maximum of 2 approved alternate electives in the biological sciences may be counted toward the major.",
+"labs" : ["Lab 1", "Lab 2"],
+"lab restrictions" : "At least two full lab courses beyond BIO 201L (101L) and 202L (102L). Maximum of one independent study may count as a lab course.",
+"capstone course" : ["'Capstone' Course (not BCH 301)"],
+"capstone ristrictions" : "At least one full 400-level or above Biology ‘Capstone’ course (formerly 200-level or above) or other approved capstone. Independent Study can only count towards this requirement if it is a second semester continuation."
+}

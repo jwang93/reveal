@@ -1,0 +1,7 @@
+{
+"name" : "Computer Science - BS",
+"notes" : "*not independent study courses", 
+"pre-req" : ["Compsci 101L", "Math 111L", "Math112L"], 
+"core" : ["Compsci 201", "Compsci  210", "Compsci 230", "Compsci 250", "Compsci 330", "Math 135/Sta 111 or above", "Math 202/216/221"],
+"electives" : ["Compsci Elective* 1", "Compsci Elective* 2", "Compsci Elective* 3", "Math/Sta/Compsci Elective 1", "Math/Sta/Compsci Elective 2"]
+}

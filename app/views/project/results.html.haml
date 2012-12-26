@@ -1,0 +1,58 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}
+      %title Results
+      %meta{:content => "", :name => "description"}
+        %meta{:content => "Jay Wang", :name => "author"}
+          %link{:href => "../../assets/stylesheets/bootstrap.css", :rel => "stylesheet"}
+            :css
+              body {
+                padding-top: 10px;
+              }
+  %body
+    .container
+      .hero-unit
+        %h1 3. Results
+        %p
+        %p
+        %br
+        %table.table.table-striped.table-bordered.table-condensed
+          %thead
+            %tr
+              %th Major(s)
+              %th Minor(s)
+              %th Certificate
+              %th Location
+              %th Company
+              %th Occupation
+              %th Salary
+              %th GPA 
+              %th c/o:
+          %tbody
+            - @data2.each do |person, info|
+              %tr
+                %td
+                  = info[0]
+                %td
+                  = info[1]
+                %td
+                  = info[2]
+                %td
+                  = info[3]
+                %td
+                  = info[4]
+                %td
+                  = info[5]
+                %td
+                  = info[6]     
+                %td
+                  = info[7]
+                %td
+                  = info[8]   
+        .row
+          %p
+          %p
+          %p
+          %p        
+          #home_button #{link_to "Try Another Combination?", '/get_academic', id: "home_button", class: "btn btn-large btn-primary"}                                  

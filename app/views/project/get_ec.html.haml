@@ -1,0 +1,33 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}
+      %title Reveal
+      %meta{:content => "Checks whether deals have been flighted in the last 24 hours", :name => "description"}
+        %meta{:content => "Jay Wang", :name => "author"}
+          %link{:href => "../../assets/stylesheets/project.css", :rel => "stylesheet"}
+            :css
+              body {
+                padding-top: 10px;
+              }
+          %script{:src => "../../assets/javascripts/project.js"}
+    
+  %body
+    .container
+      .hero-unit
+        %h1 2. Extracurricular Information
+        - for i in 0..2
+          %br
+        %form{:action => '/results', :method => 'post', :name => 'myForm'}         
+          %br
+          - @ec_params.each do |m|
+            %p Select An Extracurricular Activity:
+            %select{:name => m}
+              %option -- Select --
+              - DegreeConstants.get_ec().each do |d|
+                %option #{d}  
+          - for i in 0..5
+            %br
+          %submit_button          
+            %input{:type => "submit", :value => "Show Me The Data", :class => "btn btn-large btn-primary"}
+          

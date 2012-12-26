@@ -1,0 +1,9 @@
+{
+"name" : "Political Science - BA",
+"notes" : " The 10 courses reflect the new requirements for students matriculating after August 2012.
+		    One of the 10 courses needs to be at the 400-700 level.
+		   *These two courses need to be in different subfields.", 
+"pre-req" : ["Polsci 130", "Stats 101", "Polsci 175"], 
+"core" : ["Subfield Concentration 1", "Subfield Concentration 2", "Subfield Concentration 3"],
+"electives" : ["Course in Different Subfields 1*", " Course in Different Subfields 2*", "Elective in any Subfield 1", "Elective in any Subfield 2"]
+}
