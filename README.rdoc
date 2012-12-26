@@ -1,3 +1,16 @@
-App for course calculation at Duke 
+==The Reveal Project 
 
-problems: need some validation for the course adding... 
+Web Service that allows college students to gain personalized career data on the "package" of degrees they are working towards.  
+
+==How to use it:
+
+* Clone the code onto your machine 
+* cd into Reveal
+* run command => rails s 
+* follow instructions on the app 
+
+
+==Tasks to work on:
+
+* Add JavaScript validations
+
