@@ -22,34 +22,44 @@
             %tr
               %th Major(s)
               %th Minor(s)
-              %th Certificate
+              %th Certificate(s)
               %th Location
               %th Company
-              %th Occupation
+              %th Industry
               %th Salary
               %th GPA 
               %th c/o:
           %tbody
             - @data2.each do |person, info|
+              - temp = info 
               %tr
                 %td
-                  = info[0]
+                  - if temp[1] != "none"
+                    = temp[0] + ", " + temp[1]
+                  - else
+                    = temp[0]
                 %td
-                  = info[1]
+                  - if temp[3] != "none"
+                    = temp[2] + ", " + temp[3]
+                  - else 
+                    = temp[2]             
                 %td
-                  = info[2]
+                  - if temp[5] != "none"
+                    = temp[4] + ", " + temp[5]
+                  - else
+                    = temp[4] 
                 %td
-                  = info[3]
+                  = temp[6]
                 %td
-                  = info[4]
+                  = temp[7]
                 %td
-                  = info[5]
+                  = temp[8]
                 %td
-                  = info[6]     
+                  = temp[9]     
                 %td
-                  = info[7]
+                  = temp[10]
                 %td
-                  = info[8]   
+                  = temp[11] 
         .row
           %p
           %p

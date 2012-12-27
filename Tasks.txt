@@ -1,27 +1,12 @@
-3 pages 
 
-Personal Information
+* algo can get very tricky: what if you have two people with the same number? how to make the extra differentiation? 
 
-Name: 
-Graduation Year:
-Desired Industry: (optional) 
+* shouldn't economics be closer to history/econ than cs/econ? 
 
-Academic Interests 
+==Tasks to work on:
 
-GPA: (would be huge, the GPA rumor is enormous at Duke (Oh, I need a 3.8+ to go to Goldman etc...))
-Majors:
-Minors:
-Certificates:
-School: (Pratt or Trinity)
-
-
-
-Co-curricular Interests
-
-5 tabs for co-curricular intersts?
-
-Do frats, club sports, everything 
-start off with like top 40 clubs --> duekgroups 
-
-allow section for miscellanious 
-
+* Need to add support for other majors  (engineering) 
+* Get file upload working (use for data.csv, majors, minors, certs, etc...)
+* Add JavaScript validations
+* Refine the algo to account for GPA 
+* Think about incorporating EC 
