@@ -44,6 +44,7 @@ module ControllerModules
 
 			# at this stage, we have a match on at least one major 
 
+
 			#here is the case for when they match on both majors, I added them 50 points
 			if (fir_maj.eql?(maj1) && sec_maj.eql?(maj2)) 
 				ret = ret + 50

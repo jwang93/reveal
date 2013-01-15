@@ -10,12 +10,5 @@ Web Service that allows college students to gain personalized career data on the
 * follow instructions on the app 
 
 
-==Tasks to work on:
-
-* Need to add support for other majors 
-* Get file upload working (use for data.csv, majors, minors, certs, etc...)
-* Add JavaScript validations
-* Refine the algo to account for GPA 
-* Think about incorporating EC 
 
 

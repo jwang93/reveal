@@ -79,9 +79,6 @@ class ProjectController < ApplicationController
 
 		$keys = Array.new
 		$temp_arr = ($weight.sort_by { |name, value| value}).reverse  # this is an array...
-		debugger
-
-
 
 		for i in 0..$temp_arr.length 
 			if ($temp_arr[i])			
@@ -91,7 +88,5 @@ class ProjectController < ApplicationController
 			end
 		end
 
-
-		
 	end
 end

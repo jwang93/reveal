@@ -5,7 +5,6 @@ class DegreeConstants
 
 	def self.get_ec()
 		JSON.parse(File.read("#{Rails.root}/lib/extracurriculars.json"))["extracurriculars"]
-
 	end
 
 	def self.get_majors()
