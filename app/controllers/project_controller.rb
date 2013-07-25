@@ -48,7 +48,6 @@ class ProjectController < ApplicationController
 		for i in 0..$keys.length  
 			@data2[$keys[i]] = $people[$keys[i]]
 		end
-		debugger
 		@data2.delete_if { |k, v| v.nil? }
 	end
 
